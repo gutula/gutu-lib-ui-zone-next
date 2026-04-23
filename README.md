@@ -45,6 +45,7 @@ Why this tier:
 | --- | --- |
 | Package ID | `ui-zone-next` |
 | Import Name | `@platform/ui-zone-next` |
+| Canonical Namespace Target | `@gutu/ui-zone-next` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
 | Verification | Build+Typecheck+Lint+Test |
@@ -54,10 +55,18 @@ Why this tier:
 | Field | Value |
 | --- | --- |
 | Package Name | `@platform/ui-zone-next` |
+| Canonical Namespace Target | `@gutu/ui-zone-next` |
+| Legacy Compatibility IDs | `@platform/ui-zone-next` |
 | Direct Dependencies | `@platform/kernel`, `@platform/ui-shell` |
 | Peer Dependencies | None |
 | React Runtime | No |
 | Workspace Requirement | Compatible Gutu workspace required |
+
+## Namespace Policy
+
+- `@gutu/*` is the canonical public framework namespace for new work.
+- This repo currently publishes `@platform/ui-zone-next` as the legacy compatibility package id while the migration to `@gutu/ui-zone-next` is completed.
+- Catalog metadata carries the canonical target id so dashboards, docs, and future tooling can present one uniform Gutu namespace without breaking current consumers.
 
 ## Capability Matrix
 

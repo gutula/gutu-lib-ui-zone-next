@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-ui-zone-next",
   "packageId": "ui-zone-next",
   "displayName": "UI Zone Next",
+  "packageCount": 1,
   "group": "UI Foundation",
   "maturity": "Baseline",
   "description": "Next.js product zone adapter.",

@@ -6,11 +6,11 @@
     "framework/libraries/*"
   ],
   "scripts": {
-    "build": "bun --cwd framework/libraries/ui-zone-next run build",
-    "typecheck": "bun --cwd framework/libraries/ui-zone-next run typecheck",
-    "lint": "bun --cwd framework/libraries/ui-zone-next run lint",
-    "test": "bun --cwd framework/libraries/ui-zone-next run test",
-    "test:unit": "bun --cwd framework/libraries/ui-zone-next run test:unit",
+    "build": "bun run --cwd framework/libraries/ui-zone-next build",
+    "typecheck": "bun run --cwd framework/libraries/ui-zone-next typecheck",
+    "lint": "bun run --cwd framework/libraries/ui-zone-next lint",
+    "test": "bun run --cwd framework/libraries/ui-zone-next test",
+    "test:unit": "bun run --cwd framework/libraries/ui-zone-next test:unit",
     "docs:summary": "node scripts/docs-summary.mjs",
     "docs:check": "node scripts/docs-check.mjs"
   }

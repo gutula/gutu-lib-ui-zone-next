@@ -35,6 +35,7 @@ Provides the next-generation UI zone primitives for host apps that need pluggabl
 | Package ID | `ui-zone-next` |
 | Display Name | UI Zone Next |
 | Import Name | `@platform/ui-zone-next` |
+| Canonical Namespace Target | `@gutu/ui-zone-next` |
 | Version | `0.1.0` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
@@ -48,6 +49,7 @@ Provides the next-generation UI zone primitives for host apps that need pluggabl
 | Dev Dependencies | None |
 | React Runtime | No |
 | Workspace Scoped | Yes |
+| Legacy Compatibility IDs | `@platform/ui-zone-next` |
 
 ### Dependency interpretation
 
